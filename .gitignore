@@ -1,0 +1,4 @@
+# Ignore MkDocs build output
+site/
+site.zip
+site.tar.gz

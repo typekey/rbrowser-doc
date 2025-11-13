@@ -12,7 +12,7 @@ edit_uri: tree/main/docs
 version: 1.0.0
 
 # Copyright
-copyright: Copyright &copy; 2025 leizheng<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+copyright: Copyright &copy; 2025 RBrowser<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
 # Configuration
 theme:
@@ -28,7 +28,7 @@ theme:
     - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
@@ -139,10 +139,34 @@ extra_css:
 
 # Page tree
 nav:
-  - Before starting:
+  - Overview:
       - 1_before_starting/index.md
-  - Quick start:
+  - Quick Start:
       # [icon: material/book-open-outline]
       - 2_quick_start/index.md
-      - 2.1 Navigate: 2_quick_start/navigate.md
-      - 2.2 Regions: 2_quick_start/regions.md
+      - 1.1 User interface: 2_quick_start/1_user_interface.md
+      - 1.2 RBrowser Main Viewer: 2_quick_start/2_main_viewer.md
+      - 1.3 Channel and Track: 2_quick_start/3_channel_and_track.md
+      - 1.4 Coordinate System: 2_quick_start/4_coordinate.md
+      - 1.5 Region: 2_quick_start/5_region.md
+      - 1.6 RBrowser GPT: 2_quick_start/6_rbrowser_gpt.md
+      - 1.7 RBrowser Renderer: 2_quick_start/7_config_grammar.md
+  - DataHub:
+      - 4_datahub/index.md
+      - 2.1 DataHub Overview: 4_datahub/1_datahub_overview.md
+      - 2.2 DataHub API: 4_datahub/2_datahub_api.md
+  - Plugins:
+      - 3_plugins/index.md
+      - 3.1 Plugin Overview: 3_plugins/1_plugin_overview.md
+      - 3.2 RNA 2D Structure: 3_plugins/2_rna_2d_structure.md
+      - 3.3 RNA 3D Structure: 3_plugins/3_rna_3d_structure.md
+      - 3.4 RNA and Chromatin: 3_plugins/4_rna_chromtin.md
+      - 3.5 RNA Interaction: 3_plugins/5_rna_interaction.md
+      - 3.6 RNA Sequence: 3_plugins/6_rna_sequence.md
+      - 3.7 Plugin Config: 3_plugins/7_plugin_config.md
+
+  - Error Ref:
+      - 0_error_message_reference/index.md
+  
+  - Contact:
+      - 5_contact/index.md
