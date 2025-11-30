@@ -14,16 +14,13 @@ You can select a region of interest, and the plugins will automatically synchron
 RBrowser also supports mapping signal values (m⁶A, m⁵C, RNA structure probing, etc.) from tracks to plugin renderers.  
 It enables synchronization of transcript, gene, and other related data across all plugins without affecting the main application's performance.
 
-
-![RBrowser](../imgs/3_plugin/quick_start_plugin_select_region-2.gif){ class="cover-image" }
+![Search Region](../imgs/3_plugin/plugin_example.gif){class="cover-image-lg" }
 
 ## Plugin Management
 
-### Plugin Install  
+### Plugin Enable  
 Open the plugin panel from the left sidebar, where you can view plugin names, brief descriptions, authors, and more.  
-Click the `Install` button in the bottom right to load the corresponding module into the rendering queue.
+Click the `Disable` status button in the bottom right to load the corresponding module into the rendering queue.
 
-![Search Region](../imgs/3_plugin/quick_start_plugin_plugin_left_asider.png){class="cover-image-sm" }
-
-### Plugin Uninstall  
-To remove a plugin, simply click the `Uninstall` button.
+### Plugin Disable  
+To remove a plugin, simply click the `Enable` status button.

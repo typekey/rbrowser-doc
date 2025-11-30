@@ -12,7 +12,7 @@ edit_uri: tree/main/docs
 version: 1.0.0
 
 # Copyright
-copyright: Copyright &copy; 2025 RBrowser<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+copyright: Copyright &copy; 2025 RBrowser. Developed by <a href="https://ziptop.top/" target="_blank" rel="noopener">Lei Zheng</a>.<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
 # Configuration
 theme:
@@ -105,9 +105,9 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -158,12 +158,15 @@ nav:
   - Plugins:
       - 3_plugins/index.md
       - 3.1 Plugin Overview: 3_plugins/1_plugin_overview.md
-      - 3.2 RNA 2D Structure: 3_plugins/2_rna_2d_structure.md
-      - 3.3 RNA 3D Structure: 3_plugins/3_rna_3d_structure.md
-      - 3.4 RNA and Chromatin: 3_plugins/4_rna_chromtin.md
-      - 3.5 RNA Interaction: 3_plugins/5_rna_interaction.md
-      - 3.6 RNA Sequence: 3_plugins/6_rna_sequence.md
-      - 3.7 Plugin Config: 3_plugins/7_plugin_config.md
+      - 3.2 RNA Modification: 3_plugins/2_rna_modification_atlas.md
+      - 3.3 RNA Interaction: 3_plugins/3_rna_interaction.md
+      - 3.4 RNA Sequence: 3_plugins/4_rna_sequence.md
+      - 3.5 RNA 2D Structure: 3_plugins/5_rna_2d_structure.md
+      - 3.6 RNA 3D Structure: 3_plugins/6_rna_3d_structure.md
+      - 3.7 RNA and Chromatin: 3_plugins/7_rna_chromtin.md
+      - 3.8 Localization: 3_plugins/8_localization.md
+      - 3.9 ASO Design: 3_plugins/9_aso_design.md
+      - 3.10 Plugin Config: 3_plugins/0_plugin_config.md
 
   - Error Ref:
       - 0_error_message_reference/index.md
