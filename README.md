@@ -1,4 +1,4 @@
-# RBrowser Documentation (`rbrowser-doc`)
+# RBrowser Documentation
 
 This repository contains the **documentation source** for **RBrowser**, an RNA-centric, multi-omics genome & transcriptome browser.
 
@@ -14,31 +14,34 @@ This repository contains the **documentation source** for **RBrowser**, an RNA-c
 
 How to collaboratively edit documentation pages?
 
-1. Each page has an edit button in the upper right corner. You can click it directly to edit.![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481629524-143a7b64-7467-4ea8-b864-241f263278b7.png)
+1. Each page has an edit button in the upper right corner. You can click it directly to edit.
+
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481629524-143a7b64-7467-4ea8-b864-241f263278b7.png" alt="Edit button" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
+
 2. The first time you edit, you need to fork the current repository. Just click the green button.
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764472215502-497034c8-842b-4c8f-84a5-0171ce34aff1.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764472215502-497034c8-842b-4c8f-84a5-0171ce34aff1.png" alt="Fork repository" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 3. Click the edit button in the upper right corner to enter the editing page. We use Markdown files. You may need to learn about Markdown format, which is quite simple.
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481656990-07895388-cffc-4c8c-8d1a-54569722f4b7.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481656990-07895388-cffc-4c8c-8d1a-54569722f4b7.png" alt="Edit page" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 4. When the modification is complete, click "Commit changes"
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481682854-8a7ea595-6361-4204-bc6a-1bac90dc48ac.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481682854-8a7ea595-6361-4204-bc6a-1bac90dc48ac.png" alt="Commit changes" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 5. Fill in a brief description of the modification on the page. If the review is approved, the modified content will appear directly in the RBrowser Documentation.
    The commit message is required. GitHub will automatically generate some description for the Extended description field.
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481712109-9f6f6547-aac7-47f9-8150-8351d62557ab.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481712109-9f6f6547-aac7-47f9-8150-8351d62557ab.png" alt="Commit message" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 6. On the source file page of each page, you can see the commit history of that page.
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481753437-837e02f2-e997-4fcf-beac-1adb1f3f6daf.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764481753437-837e02f2-e997-4fcf-beac-1adb1f3f6daf.png" alt="History button" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 7. In the history page, you can see the commit history of that page.
 
-![img](https://cdn.nlark.com/yuque/0/2025/png/1007992/1764472496767-0a57d308-1f3c-4dc7-896b-6bac8f323457.png)
+   <img src="https://cdn.nlark.com/yuque/0/2025/png/1007992/1764472496767-0a57d308-1f3c-4dc7-896b-6bac8f323457.png" alt="History page" style="border-radius: 8px; border: 2px solid #4a4a4a;" />
 
 ### For Users With Programming Background
 
