@@ -1,4 +1,4 @@
-# RBrowser Documentation ()
+# RBrowser Documentation
 
 This repository contains the **documentation source** for **RBrowser**, an RNA-centric, multi-omics genome & transcriptome browser.
 
@@ -6,7 +6,7 @@ This repository contains the **documentation source** for **RBrowser**, an RNA-c
 - Configuration and deployment instructions
 - Developer notes and advanced usage examples
 
-Site: https://doc.rbrowser.org/
+Site: https://doc.rbrowser.org
 
 ## Editing and Contributing
 
